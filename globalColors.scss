@@ -1,0 +1,75 @@
+@import "bourbon/bourbon";
+
+
+//vars
+$darkerBy: 15%;
+$lighterBy: 20%;
+
+//Primary Colors
+$mint: #5ccc81;
+$dandelion:#f8e714;
+$squash: #f5a623;
+$lipstick: #e6393f;
+$deep-sky: #439ad9;
+
+//Dark Colors
+$black: #000000;
+$dark: #1a2833;
+$dark-slate-blue: #14334d;
+$light-navy-blue: #2a5578;
+$battleship-grey: #616f80;
+$bluish-grey: #808d9c;
+
+//Light Colors
+$white: #ffffff;
+$cloudy-blue: #b8c1cc;
+$pale-grey-1: #d8dee6;
+$pale-grey-2: #ebf0f5;
+$very-light-blue: #f0f8ff;
+$pale-grey-3: #f7fafc;
+
+
+//-----------------------
+
+
+//Primary Color Classes
+.mint {background-color: $mint;}
+.mint-darker {background-color: shade( $mint, $darkerBy );}
+.mint-lighter {background-color: tint( $mint, $lighterBy );}
+
+.dandelion {background-color: $dandelion;}
+.dandelion-darker {background-color: adjust-hue( $dandelion, -6% );}
+.dandelion-lighter {background-color: tint( $dandelion, $lighterBy );}
+
+.squash {background-color: $squash;}
+.squash-darker {background-color: shade( $squash, $darkerBy );}
+.squash-lighter {background-color: tint( $squash, $lighterBy );}
+
+.lipstick {background-color: $lipstick;}
+.lipstick-darker {background-color: shade( $lipstick, $darkerBy );}
+.lipstick-lighter {background-color: tint( $lipstick, $lighterBy );}
+
+.deep-sky {background-color: $deep-sky;}
+.deep-sky-darker {background-color: shade( $deep-sky, $darkerBy );}
+.deep-sky-lighter {background-color: tint( $deep-sky, $lighterBy );}
+
+
+//Dark Color Classes
+.black {background-color: $black;}
+.dark {background-color: $dark;}
+.dark-slate-blue {background-color: $dark-slate-blue;}
+.light-navy-blue {background-color: $light-navy-blue;}
+.battleship-grey {background-color: $battleship-grey;}
+.bluish-grey {background-color: $bluish-grey;}
+
+
+//Light Color Classes
+.white {background-color: $white;}
+.cloudy-blue {background-color: $cloudy-blue;}
+.pale-grey-1 {background-color: $pale-grey-1;}
+.pale-grey-2 {background-color: $pale-grey-2;}
+.pale-grey-3 {background-color: $pale-grey-3;}
+.very-light-blue {background-color: $very-light-blue;}
+
+
+
